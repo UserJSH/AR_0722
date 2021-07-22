@@ -56,11 +56,17 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\BoxMoving\BoxController.cs" />
     <Compile Include="Assets\Scenes\ImageTracking\GoToURL.cs" />
+    <Compile Include="Assets\Scenes\BoxMoving\TouchHelper.cs" />
     <Compile Include="Assets\Scenes\BasicPlane\PositionVisualizer.cs" />
     <Compile Include="Assets\Scenes\BasicPlane\PlaceOnPlane.cs" />
-    <Compile Include="Assets\Scenes\BoxMoving\TouchHelper.cs" />
-    <Compile Include="Assets\Scenes\BoxMoving\BoxController.cs" />
+    <Compile Include="Assets\Scenes\BallThrowing\BallController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Scenes\BoxMoving\MobileARShadow.shader" />
+    <None Include="Assets\StreamingAssets\HiddenARCore\30971472-fb30-4ac8-96b9-1c7f45ea64bd.imgdb-imglist.txt" />
+    <None Include="Assets\StreamingAssets\HiddenARCore\9270fbb3-dac2-4b7a-ad1e-35b555085b9d.imgdb-imglist.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

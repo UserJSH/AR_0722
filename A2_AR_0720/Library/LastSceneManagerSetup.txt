@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/BoxMoving/BoxMoving.unity
+- path: Assets/Scenes/BallThrowing/BallThrowing.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
