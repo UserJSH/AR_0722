@@ -57,16 +57,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\BoxMoving\BoxController.cs" />
+    <Compile Include="Assets\Scenes\GestureControl\PlaceController.cs" />
+    <Compile Include="Assets\Scenes\GestureControl\Furniture.cs" />
     <Compile Include="Assets\Scenes\ImageTracking\GoToURL.cs" />
+    <Compile Include="Assets\Scenes\CharacterControl\CharacterController.cs" />
+    <Compile Include="Assets\Scenes\BallThrowing\BallController.cs" />
     <Compile Include="Assets\Scenes\BoxMoving\TouchHelper.cs" />
     <Compile Include="Assets\Scenes\BasicPlane\PositionVisualizer.cs" />
+    <Compile Include="Assets\Scenes\CharacterControl\DoTweenCharacterController.cs" />
     <Compile Include="Assets\Scenes\BasicPlane\PlaceOnPlane.cs" />
-    <Compile Include="Assets\Scenes\BallThrowing\BallController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scenes\BoxMoving\MobileARShadow.shader" />
-    <None Include="Assets\StreamingAssets\HiddenARCore\30971472-fb30-4ac8-96b9-1c7f45ea64bd.imgdb-imglist.txt" />
     <None Include="Assets\StreamingAssets\HiddenARCore\9270fbb3-dac2-4b7a-ad1e-35b555085b9d.imgdb-imglist.txt" />
+    <None Include="Assets\StreamingAssets\HiddenARCore\30971472-fb30-4ac8-96b9-1c7f45ea64bd.imgdb-imglist.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -281,6 +285,9 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\2020.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
@@ -704,6 +711,14 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{6EFC06CD-A385-68DF-82C6-F10FFB8F7D1A}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{3902ED43-0C33-02B6-06C8-C596A205961B}</Project>
+      <Name>LeanTouch</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{077F9EC6-5B8B-142A-D281-B9E9A4062DC5}</Project>
+      <Name>LeanCommon</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

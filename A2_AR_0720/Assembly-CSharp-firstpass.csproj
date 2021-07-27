@@ -57,19 +57,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\BoneController.cs" />
+    <Compile Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Plugins\DOTween\Modules\DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\DisplayDepthImage.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scenes\ImageTracking\ImageTrackingWithMultiplePrefabs\PrefabImagePairManager.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\HDRLightEstimation.cs" />
+    <Compile Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\SupportChecker.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\EyePoseVisualizer.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scenes\FaceTracking\ToggleCameraFacingDirection.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\FixationPoint3DVisualizer.cs" />
+    <Compile Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
+    <Compile Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\BasicLightEstimation.cs" />
+    <Compile Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scenes\Plane Detection\PlaneClassificationLabeler.cs" />
+    <Compile Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\CustomConfigurationChooser.cs" />
+    <Compile Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scenes\ImageTracking\BasicImageTracking\TrackedImageInfoManager.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\ARKitBlendShapeVisualizer.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\HumanBodyTracker.cs" />
+    <Compile Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scenes\ImageTracking\ImageTrackingWithMultiplePrefabs\DynamicPrefab.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\DisableVerticalPlanes.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\FixationPoint2DVisualizer.cs" />
@@ -88,24 +98,49 @@
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\PlaceOnPlane.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\ARWorldMapController.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scenes\FaceTracking\DisplayFaceInfo.cs" />
+    <Compile Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
+    <Compile Include="Assets\Plugins\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\CameraSwapper.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\EnvironmentProbeVisualizer.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\CameraConfigController.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\Logger.cs" />
+    <Compile Include="Assets\Plugins\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\AnchorCreator.cs" />
+    <Compile Include="Assets\Plugins\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\Plugins\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\EyeTrackingUI.cs" />
+    <Compile Include="Assets\Plugins\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\BasicLightEstimationUI.cs" />
     <Compile Include="Assets\Plugins\arfoundation-sample\Scripts\RotationController.cs" />
+    <Compile Include="Assets\Plugins\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\Plugins\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
     <None Include="Assets\Plugins\arfoundation-sample\Shaders\HumanStencil.shader" />
     <None Include="Assets\Plugins\AugmentedFaces\Materials\Shaders\AugmentedFaceOccluder.shader" />
+    <None Include="Assets\Plugins\DOTween\readme.txt" />
+    <None Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+    <None Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
     <None Include="Assets\Plugins\arfoundation-sample\Scenes\ImageTracking\Prefabs\FlowerPrefab\Shaders\Vegetation.shader" />
+    <None Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+    <None Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+    <None Include="Assets\Plugins\Lean\READ ME.txt" />
+    <None Include="Assets\Plugins\DOTween\DOTween.dll" />
     <None Include="Assets\Plugins\arfoundation-sample\Shaders\FeatheredPlaneShader.shader" />
+    <None Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Audio\Voice\unity-chan_voice_list.txt" />
     <None Include="Assets\Plugins\arfoundation-sample\Shaders\DepthGradient.shader" />
     <None Include="Assets\Plugins\arfoundation-sample\Shaders\NormalOverlay.shader" />
+    <None Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+    <None Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
     <None Include="Assets\Plugins\arfoundation-sample\Scenes\ImageTracking\Prefabs\FireFliesPrefab\Shaders\FireFly.shader" />
     <None Include="Assets\Plugins\arfoundation-sample\Shaders\Normal.shader" />
+    <None Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Art\Stage\Shader\AlphaMask.shader" />
+    <None Include="Assets\Plugins\DOTween\DOTween.XML" />
+    <None Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+    <None Include="Assets\Plugins\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -320,6 +355,9 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\2020.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
@@ -740,6 +778,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{3902ED43-0C33-02B6-06C8-C596A205961B}</Project>
+      <Name>LeanTouch</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{077F9EC6-5B8B-142A-D281-B9E9A4062DC5}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
