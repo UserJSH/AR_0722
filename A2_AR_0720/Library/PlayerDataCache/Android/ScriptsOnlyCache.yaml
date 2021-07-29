@@ -9,12 +9,16 @@ ScriptsOnlyBuild:
     - UnityChan.SpringManager
     - UnityChan.UnityChanControlScriptWithRgidBody
     Assembly-CSharp.dll:
-    - DoTweenCharacterController
+    - NavMeshCharacterContoller
     - PlaceController
     DOTween.dll:
     - DG.Tweening.Core.DOTweenSettings
     DOTweenUpgradeManager.dll:
     - DG.DOTweenUpgradeManager.UpgradeWindow
+    NavMeshComponents.dll:
+    - UnityEngine.AI.NavMeshSurface
+    NavMeshComponentsEditor.dll:
+    - UnityEditor.AI.NavMeshAssetManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARCore.Editor.dll:
@@ -120,13 +124,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4418}
     - Class: 114
-      Script: {instanceID: 4610}
-    - Class: 114
       Script: {instanceID: 4760}
     - Class: 114
       Script: {instanceID: 4944}
     - Class: 114
       Script: {instanceID: 5222}
+    - Class: 114
+      Script: {instanceID: 18268}
+    - Class: 114
+      Script: {instanceID: 24902}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -137,7 +143,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 208
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1400,6 +1410,120 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityChan
     className: SpringBone
+  - hash:
+      serializedVersion: 2
+      Hash: 8d722e874bde92513d295f5d6bb98e69
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: RandomInstancing
+  - hash:
+      serializedVersion: 2
+      Hash: 7299a528424874bcf6b5736b5305ac37
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: f2d6f78254ca93fbc5b1ada07c8dcb72
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: FreeCam
+  - hash:
+      serializedVersion: 2
+      Hash: 758b5d99bd0554ee74733433b3433b11
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: DungeonManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1f1a3b63bcb87e63110a26427883b8e5
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: EnableIffSleeping
+  - hash:
+      serializedVersion: 2
+      Hash: 2b19be13f00df62e6d4d4f5539bcad51
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: NavMeshSourceTag
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: ClickToMove
+  - hash:
+      serializedVersion: 2
+      Hash: c8c672fee8a258266e51b55a210b8083
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
+      Hash: c05d535bfcb6e005cb05d18d0df0e685
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: RandomWalk
+  - hash:
+      serializedVersion: 2
+      Hash: 142ac660d938c77d06a40116647495c6
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: SpawnPrefabOnKeyDown
+  - hash:
+      serializedVersion: 2
+      Hash: 1f53cbc473f31cd3401926bb2a2275f8
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: AgentLinkMover
+  - hash:
+      serializedVersion: 2
+      Hash: 8a4ecc6114cf107a280fc0a4e6b393f4
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: MeshTool
+  - hash:
+      serializedVersion: 2
+      Hash: af194f19ec5528d7d0aee06309df5c6b
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: Oscillator
+  - hash:
+      serializedVersion: 2
+      Hash: 8d4458b476a9a4dd8df843a849fcfffa
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 0e57a341531c2c0a72d6b366fd018e5b
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: NavMeshPrefabInstance
+  - hash:
+      serializedVersion: 2
+      Hash: 74abb616a7b65b377f11c8a31f2ddea6
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: LocalNavMeshBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: de0e373f9e7fb0fa48caeb13c2e57300
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: DestroyOnTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NavMeshCharacterContoller
   platform: 13
   scenePathNames:
   - Assets/Scenes/CharacterControl/CharacterControl.unity

@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scenes\BasicPlane\PositionVisualizer.cs" />
     <Compile Include="Assets\Scenes\CharacterControl\DoTweenCharacterController.cs" />
     <Compile Include="Assets\Scenes\BasicPlane\PlaceOnPlane.cs" />
+    <Compile Include="Assets\Scenes\CharacterControl\NavMeshCharacterContoller.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scenes\BoxMoving\MobileARShadow.shader" />
@@ -719,6 +720,22 @@
     <ProjectReference Include="LeanCommon.csproj">
       <Project>{077F9EC6-5B8B-142A-D281-B9E9A4062DC5}</Project>
       <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsExamples.csproj">
+      <Project>{3B9A6764-9599-A5C9-B99B-E4B86AADD8BA}</Project>
+      <Name>NavMeshComponentsExamples</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{98A1EE69-5E3A-BEC0-16A8-1368E456419F}</Project>
+      <Name>NavMeshComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{75250404-B667-D745-D8B2-D334D719B9C4}</Project>
+      <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsExamplesEditor.csproj">
+      <Project>{59D487BE-255C-99A6-748A-59C2F5AFB233}</Project>
+      <Name>NavMeshComponentsExamplesEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

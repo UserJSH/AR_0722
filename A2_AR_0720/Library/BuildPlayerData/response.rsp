@@ -13,6 +13,8 @@
 -a="C:\Users\PNU\Documents\A2\A2_AR_0720\Library\PlayerScriptAssemblies\Unity.XR.ARSubsystems.dll"
 -a="C:\Users\PNU\Documents\A2\A2_AR_0720\Library\PlayerScriptAssemblies\LeanCommon.dll"
 -a="C:\Users\PNU\Documents\A2\A2_AR_0720\Library\PlayerScriptAssemblies\Unity.XR.ARFoundation.dll"
+-a="C:\Users\PNU\Documents\A2\A2_AR_0720\Library\PlayerScriptAssemblies\NavMeshComponentsExamples.dll"
+-a="C:\Users\PNU\Documents\A2\A2_AR_0720\Library\PlayerScriptAssemblies\NavMeshComponents.dll"
 -a="C:\Users\PNU\Documents\A2\A2_AR_0720\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\AOT\Newtonsoft.Json.dll"
 -a="C:\Users\PNU\Documents\A2\A2_AR_0720\Assets\Plugins\DOTween\DOTween.dll"
 -a="C:\Users\PNU\Documents\A2\A2_AR_0720\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Portable\Newtonsoft.Json.dll"
