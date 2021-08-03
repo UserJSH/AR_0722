@@ -4,7 +4,7 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 
-public class Game : MonoBehaviour
+public class Game : MonoBehaviourPunCallbacks
 {
     [SerializeField] private Transform cube;
 
@@ -19,5 +19,11 @@ public class Game : MonoBehaviour
     void Update()
     {
         
+    }
+
+    //πÊ¿Â¿Ã πŸ≤Ò
+    public override void OnMasterClientSwitched(Player newMasterClient)
+    {
+        print("OnMasterClientSwitched " + newMasterClient.NickName);
     }
 }

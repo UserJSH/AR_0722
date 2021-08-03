@@ -142,6 +142,12 @@ public class Lobby : MonoBehaviourPunCallbacks
             print(item.Name);
         }
     }
+
+    //πÊ¿Â¿Ã πŸ≤Ò
+    public override void OnMasterClientSwitched(Player newMasterClient)
+    {
+        print("OnMasterClientSwitched " + newMasterClient.NickName);
+    }
     #endregion
 }
 

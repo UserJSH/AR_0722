@@ -18,7 +18,7 @@ public class Login : MonoBehaviourPunCallbacks
         //플레이어 속성
         Hashtable player = new Hashtable
         {
-            {"Level", 1 },{"Exp", 0 }
+            {"Level", 1 },{"Exp", 0 },{"Color", Random.Range(0, 7)}
         };
         PhotonNetwork.LocalPlayer.SetCustomProperties(player);
 
