@@ -8,6 +8,8 @@ fixedUpdate, fixedDeltaTime
 
 Photon 기술문서 - Gameplay- 지연보상, RPC
 
+0805
+mixamo
 
 
 디펜스 깃헙
@@ -16,3 +18,14 @@ https://github.com/AnimaRain/ShootAR#known-issues
 https://github.com/prabhuvkr/AR-shooter-game
 
 https://github.com/reversegremlin/Farm-Defender
+
+
+Asset Store
+Catsle, first-person, wall 
+
+//포털
+https://assetstore.unity.com/packages/tools/particles-effects/pocket-portal-vr-85657
+//적 도깨비
+https://assetstore.unity.com/packages/3d/characters/meshtint-free-boximon-fiery-mega-toon-series-153958
+//적 드론
+https://assetstore.unity.com/packages/3d/vehicles/air/realistic-drone-66698
