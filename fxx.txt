@@ -11,10 +11,7 @@ Photon 기술문서 - Gameplay- 지연보상, RPC
 
 
 디펜스 깃헙
-https://github.com/windowsub0406/AR-mobile-Tower-Defence-game
-
-
-https://github.com/minnes09/ArTowerDefense
+https://github.com/AnimaRain/ShootAR#known-issues
 
 
 https://github.com/reversegremlin/Farm-Defender
